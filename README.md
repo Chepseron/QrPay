@@ -15,9 +15,12 @@
 1: for user addition 
 http://localhost/QrPay/db.users/{id}
 //the function to consume the data is contained in the code below in the file path QrPay-main/src/java/Bean/service/UsersFacadeREST.java
+```
 @PUT
     @Path("{id}")
     @Consumes({"application/xml", "application/json"})
     public void edit(@PathParam("id") PathSegment id, Users entity) {
         super.edit(entity);
     }
+```
+
