@@ -1,6 +1,6 @@
 # QrPay
 
-# Steps to execute the project.
+## Steps to execute the project.
 
 1: Download the SQL file which has the schema and various tables 
 2: Execute the dump using either mysql admin tools or the Mysql command line tool 
@@ -11,7 +11,7 @@
 7: Requests are made to REST services in the formats below 
 
 
-# Sample request
+## Sample request
 1: for user addition 
 http://localhost/QrPay/db.users/{id}
 //the function to consume the data is contained in the code below in the file path QrPay-main/src/java/Bean/service/UsersFacadeREST.java
