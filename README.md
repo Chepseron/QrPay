@@ -18,7 +18,7 @@ http://localhost/QrPay/db.users/{id}
 <br/>
 <br/>
 The function to consume the data is contained in the code below in the file path QrPay-main/src/java/Bean/service/UsersFacadeREST.java
-```
+```java
 @PUT
     @Path("{id}")
     @Consumes({"application/xml", "application/json"})
